@@ -1,0 +1,46 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "32616e3fc3574a0664d44c68de7cffd9",
+    "packages": [
+        {
+            "name": "xpaw/php-minecraft-query",
+            "version": "4.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://mirrors.tencent.com/repository/composer/xpaw/php-minecraft-query/4.0.1/xpaw-php-minecraft-query-4.0.1.zip",
+                "reference": "c7257e7c3d18c14cd476910f1516f93f405f54ee",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "xPaw\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "PHP library to query Minecraft servers",
+            "keywords": [
+                "minecraft"
+            ],
+            "time": "2021-06-18T13:18:40+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

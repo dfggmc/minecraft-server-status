@@ -1,0 +1,36 @@
+{
+    "packages": [
+        {
+            "name": "xpaw/php-minecraft-query",
+            "version": "4.0.1",
+            "version_normalized": "4.0.1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://mirrors.tencent.com/repository/composer/xpaw/php-minecraft-query/4.0.1/xpaw-php-minecraft-query-4.0.1.zip",
+                "reference": "c7257e7c3d18c14cd476910f1516f93f405f54ee",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "time": "2021-06-18T13:18:40+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "xPaw\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "PHP library to query Minecraft servers",
+            "keywords": [
+                "minecraft"
+            ],
+            "install-path": "../xpaw/php-minecraft-query"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
