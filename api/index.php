@@ -1,5 +1,6 @@
 <?php
 require __DIR__ . '/vendor/autoload.php';
+header('Access-Control-Allow-Origin: *');
 
 use xPaw\MinecraftPing;
 use xPaw\MinecraftPingException;
