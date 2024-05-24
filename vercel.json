@@ -12,12 +12,8 @@
     ],
     "headers": [
         {
-            "source": "/(.*)",
+            "source": "/api/(.*)",
             "headers": [
-                {
-                    "key": "Location",
-                    "value": "https://api.music.dfggmc.top/"
-                },
                 {
                     "key": "Access-Control-Allow-Credentials",
                     "value": "true"
