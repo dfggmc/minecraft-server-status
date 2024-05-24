@@ -1,6 +1,9 @@
 <?php
-require __DIR__ . '/vendor/autoload.php';
+// 允许跨站
 header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
+
+require __DIR__ . '/vendor/autoload.php';
 
 use xPaw\MinecraftPing;
 use xPaw\MinecraftPingException;
