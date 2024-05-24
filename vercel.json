@@ -1,15 +1,4 @@
 {
-    "functions": {
-        "api/index.php": {
-            "runtime": "vercel-php@0.4.3"
-        }
-    },
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/api/index.php"
-        }
-    ],
     "headers": [
         {
             "source": "/(.*)",
@@ -31,6 +20,17 @@
                     "value": "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version"
                 }
             ]
+        }
+    ],
+    "functions": {
+        "api/index.php": {
+            "runtime": "vercel-php@0.4.3"
+        }
+    },
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/api/index.php"
         }
     ]
 }
