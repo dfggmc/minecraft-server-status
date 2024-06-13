@@ -103,7 +103,7 @@ if (isset($Exception)) {
         $response['data']['players'] = [
             'online' => $Info['players']['online'] ?? null,
             'max' => $Info['players']['max'] ?? null,
-            'players' => $players
+            'list' => $players
         ];
         $response['data']['favicon'] = $Info['favicon'];
     } else {
@@ -116,7 +116,7 @@ if (isset($Exception)) {
     $response['data']['players'] = [
         'online' => null,
         'max' => null,
-        'players' => null
+        'list' => null
     ];
     $response['data']['favicon'] = null;
 }
